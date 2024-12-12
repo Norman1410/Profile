@@ -1,0 +1,142 @@
+/* App.css */
+
+/* General */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+
+/* Contenedor principal */
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 1200px;
+  gap: 2rem;
+}
+
+/* Columna Izquierda */
+.profile-left {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.personal-info {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info h2 {
+  font-size: 1.5rem;
+  color: #4CAF50;
+}
+
+.personal-info p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Tarjetas */
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #4CAF50;
+}
+
+.card ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.card li {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Columna Derecha */
+.profile-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+
+/* Contenedor del botón de idioma */
+.language-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding-bottom: 2rem; /* Espaciado inferior para separar del final de la página */
+}
+
+/* Botón de idioma */
+.language-button {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-button:hover {
+  background-color: #45a049;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 2rem;
+}
